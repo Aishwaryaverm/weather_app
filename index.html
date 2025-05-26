@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <div class="search">
+      <input type="text" id="search" placeholder="Enter city name">
+      <button id="btn"><img width="50" height="50" src="https://img.icons8.com/ios/50/search--v1.png" alt="search--v1"/></button>
+    </div>
+    <div class="weather">
+      <img src="Images/cloudy.gif" class="weather-icon" alt="Weather Icon">
+      <h1 id="temp">--</h1>
+      <h2 id="city">City Name</h2>
+      <p id="condition">--</p>
+      <div class="details">
+        <div class="col">
+          <img src="weather-app-img/images/humidity.png" alt="Humidity">
+          <div>
+            <p class="humidity" id="humadity">--%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="weather-app-img/images/wind.png" alt="Wind Speed">
+          <div>
+            <p class="wind" id="wind">-- km/h</p>
+            <p>Wind</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
